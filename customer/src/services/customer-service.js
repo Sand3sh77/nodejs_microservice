@@ -144,6 +144,7 @@ class CustomerService {
 
         const { userId, product, order, qty } = data;
 
+        // console.log("Subscribed",event,data);
 
         switch(event){
             case 'ADD_TO_WISHLIST':
